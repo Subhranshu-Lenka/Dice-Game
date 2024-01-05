@@ -18,7 +18,7 @@ function generateNum() {
     let num1 = Math.floor(Math.random() * 6) + 1;
     let num2 = Math.floor(Math.random() * 6) + 1;
 
-    console.log(`num1 is ${num1} and num2 is ${num2}`);
+    // console.log(`num1 is ${num1} and num2 is ${num2}`);
     return { num1: num1, num2: num2 }
 }
 
